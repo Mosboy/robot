@@ -1,0 +1,39 @@
+body{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	background:linear-gradient(to left,rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);
+}
+main{
+	display:flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+	align-items: center;
+}
+.oga{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+
+}
+.oga h2,p{
+	font-size:15px;
+}
+.emma{
+	position: relative;
+	z-index:-1;
+	padding:5px;
+	width:200px;height:200px;
+}
+main>h1{
+	font-family:fantasy;
+	letter-spacing: 1px;
+	color:white;
+	padding:0;
+	margin:0;
+	text-shadow: 3px 3px 1px black;
+}
+.search_box>input[type="search"]{
+	padding:10px;
+}
